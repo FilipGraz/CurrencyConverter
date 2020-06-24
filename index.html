@@ -10,66 +10,69 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
+    <link href="css/background.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap"
         rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
-    <div class="container">
-        <header class="container__header">World best currency rate !!!</header>
-        <form class="form js-form">
-            <fieldset class="form__mainFieldset">
-                <legend class="form__mainLegend">
-                    Internet Money Exchange
-                </legend>
-                <p class="form__paragraph">
-                <fieldset class="form__fieldset">
-                    <legend class="form_legend">
-                        You Sell:
+    <div class="background">
+        <div class="container">
+            <header class="container__header">World best currency rate !!!</header>
+            <form class="form js-form">
+                <fieldset class="form__mainFieldset">
+                    <legend class="form__mainLegend">
+                        Internet Money Exchange
                     </legend>
-                    <select class="form__select js-firstSelect">
-                        <option value="PLN">PLN</option>
-                        <option value="EUR" selected>EUR</option>
-                        <option value="USD">USD</option>
-                        <option value="GBP">GBP</option>
-                    </select>
                     <p class="form__paragraph">
-                        <input class="form__field js-amount" type="number" name="sell" step="any" required>
+                    <fieldset class="form__fieldset">
+                        <legend class="form_legend">
+                            You Sell:
+                        </legend>
+                        <select class="form__select js-firstSelect">
+                            <option value="PLN">PLN</option>
+                            <option value="EUR" selected>EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                        <p class="form__paragraph">
+                            <input class="form__field js-amount" type="number" name="sell" step="any" required>
+                        </p>
+
+                    </fieldset>
+                    </p>
+                    <p class="form__paragraph">
+                    <fieldset class="form__fieldset">
+                        <legend class="form_legend">
+                            You Get:
+                        </legend>
+                        <select class="form__select js-secondSelect">
+                            <option value="PLN">PLN</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                        <p class="form__paragraph">
+                            <input class="form__field js-result" type="number" name="buy" step="any">
+                        </p>
+
+                    </fieldset>
+                    <p class="form__paragraph">
+                        <button class="form__button js-submit">Exchange Money</button>
+                    </p>
+                    <p>
+                        <span class="form__message js-message"></span>
                     </p>
 
-                </fieldset>
-                </p>
-                <p class="form__paragraph">
-                <fieldset class="form__fieldset">
-                    <legend class="form_legend">
-                        You Get:
-                    </legend>
-                    <select class="form__select js-secondSelect">
-                        <option value="PLN">PLN</option>
-                        <option value="EUR">EUR</option>
-                        <option value="USD">USD</option>
-                        <option value="GBP">GBP</option>
-                    </select>
-                    <p class="form__paragraph">
-                        <input class="form__field js-result" type="number" name="buy" step="any">
-                    </p>
 
                 </fieldset>
-                <p class="form__paragraph">
-                    <button class="form__button js-submit">Exchange Money</button>
-                </p>
-                <p>
-                    <span class="form__message js-message"></span>
-                </p>
+            </form>
+        </div>
+        <footer class="footer">&copy;Copyright by Filip Grąz 2020 All Rights Reserved!&copy;</footer>
 
 
-            </fieldset>
-        </form>
     </div>
-    <footer class="footer">&copy;Copyright by Filip Grąz 2020 All Rights Reserved!&copy;</footer>
-
-
 </body>
 
 </html>
