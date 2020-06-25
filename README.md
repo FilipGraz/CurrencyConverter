@@ -1,5 +1,5 @@
 # Currency Converter by Filip Grąz
-![Currency] (https://github.com/FilipGraz/CurrencyConverter/blob/master/Images/currency.png?raw=true)
+![Currency](https://github.com/FilipGraz/CurrencyConverter/blob/master/Images/currencysmall.jpg?raw=true)
 
 ## Link to my project:
 [Currency Converter page](https://filipgraz.github.io/CurrencyConverter/)
