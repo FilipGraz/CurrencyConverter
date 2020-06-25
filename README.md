@@ -17,5 +17,5 @@ Easy to convert between PLN, USD, EUR, GBP
 
 ## Project status:
 
-The project was created on the beginning of my adventure with Frontend Development. It'II evolv along with my programing skills.
+The project was created on the beginning of my adventure with Frontend Development. It'II evolve along with my programming skills.
 
