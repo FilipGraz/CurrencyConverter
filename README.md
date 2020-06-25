@@ -1,7 +1,8 @@
 # Currency Converter by Filip Grąz
+![Currency] (
 
 ## Link to my project:
-![Currency Converter page] (https://filipgraz.github.io/CurrencyConverter/)
+[Currency Converter page] (https://filipgraz.github.io/CurrencyConverter/)
 
 ## Used technologies:
 
