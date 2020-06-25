@@ -1,9 +1,0 @@
-.background {
-    resize: both;
-    overflow: auto;
-    background-image: url("../Images/currency.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}

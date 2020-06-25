@@ -9,10 +9,17 @@ html {
 .body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(245, 245, 245);
+    resize: both;
+    overflow: auto;
+    background-image: url("../Images/currency.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .footer {
-    color: rgba(51, 49, 49, 0.9);
+    color: rgb(228, 224, 224);
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
