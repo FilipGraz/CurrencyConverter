@@ -2,7 +2,7 @@
 ![Currency] (https://github.com/FilipGraz/CurrencyConverter/blob/master/Images/currency.png?raw=true)
 
 ## Link to my project:
-[Currency Converter page] (https://filipgraz.github.io/CurrencyConverter/)
+[Currency Converter page](https://filipgraz.github.io/CurrencyConverter/)
 
 ## Used technologies:
 
